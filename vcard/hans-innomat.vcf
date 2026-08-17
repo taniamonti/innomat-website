@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Hans Barth
+N;CHARSET=UTF-8:Hans;Barth;;;
+ORG;CHARSET=UTF-8:Innomat-Automation AG
+TITLE;CHARSET=UTF-8:Geschäftsführer
+TEL;TYPE=WORK,VOICE:+41 71 277 07 31
+TEL;TYPE=CELL,VOICE:+41 79 605 98 86
+EMAIL;TYPE=INTERNET:h.barth@innomat.ch
+URL;TYPE=WORK:https://www.innomat.ch
+URL;TYPE=WORK:https://www.kalisto.cloud
+URL;TYPE=WORK:https://www.linkedin.com/in/hans-barth-8b844064
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Industriestrasse 28;Herisau;;9100;Schweiz
+NOTE;CHARSET=UTF-8:Ich unterstütze Industrieunternehmen bei der Vernetzung von Maschinen, Anlagen und Prozessen - mit Lösungen in den Bereichen M2M, IIoT, Robotik und mobile Robotik.
+END:VCARD

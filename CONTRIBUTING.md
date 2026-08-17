@@ -35,7 +35,7 @@ prek run --all-files # gesamtes Projekt
 
 ## Commit-Nachrichten
 
-Der `commit-msg`-Hook prüft automatisch, dass die erste Zeile kurz und aussagekräftig ist. Sie darf höchstens 72 Zeichen lang sein und keine Leerzeichen am Anfang oder Ende enthalten.
+Der `commit-msg`-Hook prüft Commit-Nachrichten mit gitlint. Der Titel beginnt mit einem Großbuchstaben, ist 5 bis 72 Zeichen lang und endet nicht mit Satzzeichen. Ein Body ist optional; seine Zeilen dürfen höchstens 72 Zeichen lang sein.
 
 ```text
 Add contact form

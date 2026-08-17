@@ -12,12 +12,7 @@ language = "node"
 additional_dependencies = ["prettier@3.9.6"]
 types_or = ["html", "css", "javascript", "json", "markdown", "yaml"]
 
-[[repos.hooks]]
-id = "commitlint"
-name = "Validate commit message"
-entry = "commitlint --edit"
-language = "node"
-additional_dependencies = [
-  "@commitlint/cli@21.2.1",
-]
-stages = ["commit-msg"]
+[[repos]]
+repo = "https://github.com/jorisroovers/gitlint"
+rev = "v0.19.1"
+hooks = [{ id = "gitlint" }]

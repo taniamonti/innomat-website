@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Mathias Oertle
+N;CHARSET=UTF-8:Oertle;Mathias;;;
+ORG;CHARSET=UTF-8:Innomat-Automation AG
+TITLE;CHARSET=UTF-8:Geschäftsführer
+TEL;TYPE=WORK,VOICE:+41 71 694 51 16
+TEL;TYPE=CELL,VOICE:+41 79 502 53 71
+EMAIL;TYPE=INTERNET:m.oertle@innomat.ch
+URL;TYPE=WORK:https://www.innomat.ch
+URL;TYPE=WORK:https://www.kalisto.cloud
+URL;TYPE=WORK:https://calendly.com/m-oertle-innomat
+URL;TYPE=WORK:https://www.linkedin.com/in/mathiasoertle
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Industriestrasse 28;Herisau;;9100;Schweiz
+NOTE;CHARSET=UTF-8:Ich unterstütze Industrieunternehmen bei der Vernetzung von Maschinen, Anlagen und Prozessen - mit Lösungen in den Bereichen M2M, digitale Portale und IIoT auf Basis von Kalisto.
+END:VCARD

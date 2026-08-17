@@ -1,0 +1,12 @@
+minimum_prek_version = "0.4.12"
+
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "prettier"
+name = "Format with Prettier"
+entry = "prettier --write --ignore-unknown"
+language = "node"
+additional_dependencies = ["prettier@3.9.6"]
+types_or = ["html", "css", "javascript", "json", "markdown", "yaml"]

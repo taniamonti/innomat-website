@@ -5,17 +5,22 @@ A modern, responsive website showcasing **Innomat - Automation AG** and its comp
 ## Companies Featured
 
 ### **Innomat - Automation AG**
+
 Software and innovation development, industrial automation, system architecture, and project management. Specializes in digitalization and system integration for manufacturing.
 
 ### **Staveb Automation AG**
+
 Robotics and automation solutions including:
+
 - Autonomous Mobile Robots (AMR)
 - Bin Picking and Machine Tending
 - Complete automation systems and retrofit solutions
 - Vision systems and AMR fleet management
 
 ### **Kalisto**
+
 An industrial IoT and digitalization platform featuring:
+
 - Real-time data connectivity and visualization
 - SCADA and HMI solutions
 - Smart Factory integration
@@ -38,3 +43,7 @@ This website serves as a comprehensive digital presence for three interconnected
 ## Technology
 
 Built with semantic HTML5, modern CSS3 (including CSS Grid, Flexbox), and vanilla JavaScript for interactive components like filtering, booking, and team member cards.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the one-time development setup and automatic formatting before commits.

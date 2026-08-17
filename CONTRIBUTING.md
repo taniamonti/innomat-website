@@ -35,12 +35,10 @@ prek run --all-files # gesamtes Projekt
 
 ## Commit-Nachrichten
 
-Commit-Nachrichten folgen dem [Conventional-Commits-Schema](https://www.conventionalcommits.org/). Der `commit-msg`-Hook prüft sie automatisch.
+Der `commit-msg`-Hook prüft automatisch, dass die erste Zeile kurz und aussagekräftig ist. Sie darf höchstens 72 Zeichen lang sein und keine Leerzeichen am Anfang oder Ende enthalten.
 
 ```text
-feat: add contact form
-fix: correct logo path
-docs: update setup instructions
+Add contact form
+Correct logo path
+Update setup instructions
 ```
-
-Das Format lautet `<typ>: <kurze beschreibung>`. Übliche Typen sind `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore` und `revert`.

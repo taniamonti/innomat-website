@@ -32,3 +32,15 @@ Die Hooks lassen sich auch manuell ausführen:
 prek run             # vorgemerkte Dateien
 prek run --all-files # gesamtes Projekt
 ```
+
+## Commit-Nachrichten
+
+Commit-Nachrichten folgen dem [Conventional-Commits-Schema](https://www.conventionalcommits.org/). Der `commit-msg`-Hook prüft sie automatisch.
+
+```text
+feat: add contact form
+fix: correct logo path
+docs: update setup instructions
+```
+
+Das Format lautet `<typ>: <kurze beschreibung>`. Übliche Typen sind `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore` und `revert`.

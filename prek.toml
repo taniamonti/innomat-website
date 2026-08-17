@@ -1,4 +1,5 @@
 minimum_prek_version = "0.4.12"
+default_install_hook_types = ["pre-commit", "commit-msg"]
 
 [[repos]]
 repo = "local"
@@ -10,3 +11,14 @@ entry = "prettier --write --ignore-unknown"
 language = "node"
 additional_dependencies = ["prettier@3.9.6"]
 types_or = ["html", "css", "javascript", "json", "markdown", "yaml"]
+
+[[repos.hooks]]
+id = "commitlint"
+name = "Validate commit message"
+entry = "commitlint --edit"
+language = "node"
+additional_dependencies = [
+  "@commitlint/cli@21.2.1",
+  "@commitlint/config-conventional@21.2.0",
+]
+stages = ["commit-msg"]
